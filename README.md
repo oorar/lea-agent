@@ -6,6 +6,12 @@ surface contextual UI, and escalates structured project briefs by email — all 
 top of a **zero-cost, four-provider LLM fallback chain** designed to stay up even
 when individual inference providers rate-limit or fail.
 
+<p align="center">
+  <img src="assets/lea-widget.png" alt="Léa qualifying a lead and surfacing booking CTAs, live on aniria.dev" width="340">
+  <br>
+  <em>Léa live on aniria.dev — qualifying a lead, then calling a tool to surface the booking CTAs.</em>
+</p>
+
 > This repository contains the real source of the Léa agent, extracted from the
 > [aniria.dev](https://aniria.dev) Next.js app. The provider chain lives in
 > [`src/app/api/agent/route.ts`](src/app/api/agent/route.ts); the chat widget,
